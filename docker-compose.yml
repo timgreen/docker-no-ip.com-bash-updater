@@ -1,0 +1,7 @@
+noip-bash-updater:
+  build: ./build
+  # image: noip-bash-updater:latest
+  container_name: noip-bash-updater
+  volumes:
+    - ./config/config:/bin/config:ro
+  command: cron

@@ -4,10 +4,16 @@ the ip of an account on no-ip.com.
 
 # How to use
 
+First, create `config` file in the config dir. Then run with one of following methods.
+
 ## Fire and forget
 
-TBD
+    docker run -it --rm -v $(pwd)/config/config:/bin/config noip-updater:latest
 
 ## Cron job
 
-TBD
+    docker run -it --rm -v $(pwd)/config/config:/bin/config noip-updater:latest cron
+
+## Docker compose
+
+    docker-compose up

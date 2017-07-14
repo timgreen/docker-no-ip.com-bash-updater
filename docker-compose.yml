@@ -1,6 +1,6 @@
 noip-bash-updater:
-  build: ./build
-  # image: noip-bash-updater:latest
+  # build: ./build
+  image: timgreen/noip-bash-updater
   container_name: noip-bash-updater
   volumes:
     - ./config/config:/bin/config:ro

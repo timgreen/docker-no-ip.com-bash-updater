@@ -1,3 +1,5 @@
+[![docker pulls](https://img.shields.io/docker/pulls/timgreen/noip-bash-updater.svg)](https://hub.docker.com/r/timgreen/noip-bash-updater/)
+
 A simple Docker container for running the
 [mdmower/bash-no-ip-updater](https://github.com/mdmower/bash-no-ip-updater) to update
 the ip of an account on no-ip.com.
